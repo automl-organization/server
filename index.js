@@ -7,6 +7,8 @@ const dbConnect = require('./db/dbConnect');
 const registerRouter = require('./routes/auth/register');
 const loginRouter = require('./routes/auth/login');
 const homepageRouter = require('./routes/homepage');
+const datasetUploadRouter = require('./routes/dataset/upload');
+const datasetGetDataframeRouter = require('./routes/dataset/get-dataframe');
 
 const app = express();
 
@@ -26,6 +28,8 @@ app.use(express.json({ limit: '50mb' }));
 app.use('/auth/register', registerRouter);
 app.use('/auth/login', loginRouter);
 app.use('/homepage', homepageRouter);
+app.use('/dataset/upload', datasetUploadRouter);
+app.use('/dataset/get-dataframe', datasetGetDataframeRouter);
 
 
 // Error handling middleware
