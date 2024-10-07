@@ -7,6 +7,7 @@
     - [`/auth/register`](#authregister)
     - [`/auth/login`](#authlogin)
 
+---
 
 ## Endpoints
 
