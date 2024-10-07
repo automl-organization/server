@@ -1,34 +1,3 @@
-<style>
-    /* Enable smooth scrolling */
-    @media screen and (prefers-reduced-motion: no-preference) {
-        html {
-            scroll-behavior: smooth;
-        }
-    }
-
-    /* Style the button */
-    .top-link {
-    transition:       all .25s ease-in-out;
-    position:         fixed;
-    bottom:           0;
-    right:            0;
-    display:          inline-flex;
-    color:            #000000;
-    font-size:        2.5em;
-
-    cursor:           pointer;
-    align-items:      center;
-    justify-content:  center;
-    margin:           0 1.5em 1.5em 0;
-    border-radius:    50%;
-    padding:          .25em;
-    width:            1.5em;
-    height:           1.5em;
-    background-color: #F8F8F8;
-    }
-</style>
-
-
 # API Documentation
 
 ## Index
@@ -85,7 +54,3 @@
     **Response object :** 
         - *message*
 ---
-
-
-<a class="top-link hide" href="#top">↑</a>
-<a name="top"></a>
